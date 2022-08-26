@@ -5,6 +5,7 @@ body {
   background-color: hsl(225, 100%, 94%);
   font-size: 16px;
   font-family: "Red Hat Display", sans-serif;
+  height: 80%;
 }
 
 #mainContainer {
