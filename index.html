@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
     <link
       rel="icon"
       type="image/png"
@@ -28,7 +30,7 @@
   <body>
     <div id="mainContainer">
       <div id="imageContainer">
-        <svg
+       <svg
           id="image"
           xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -203,19 +205,22 @@
             </g>
           </svg>
 
-          <p>Annual Plan $59.99/year</p>
+          <div id="pricePlan">
+          <p>Annual Plan</p>
+          <p>$59.99/year</p>
+        </div>
           <a href="#">Change</a>
         </div>
         <button class="button">Proceed to Payment</button>
-        <button class="button">Cancel Order</button>
+        <a class="cancelOrder">Cancel Order</a>
       </div>
 
-      <div class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Jorge Rivera</a>.
-      </div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Jorge Rivera</a>.
     </div>
   </body>
 </html>
